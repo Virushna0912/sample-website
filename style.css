@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    background-image:url(./david-marcu-78A265wPiO4-unsplash.jpg);
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.right img{
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 60px;
+  
+
+}
+
+.left {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.left .home {
+    margin-right: 40px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+
+}
+.left .about{
+    margin-right: 40px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.left .service{
+    margin-right: 40px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.left .contact{
+    margin-right: 40px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.left .num{
+    border-radius: 5px;
+    background: none;
+    border-color:white;
+    cursor: pointer;
+    color: white;
+    margin-right: 130px;
+    padding: 15px 25px 15px 25px;
+    font-size: 15px;
+     
+}
+.heading{
+   display: flex;
+   justify-content: center;
+   
+   
+   
+}
+.heading2{
+    align-items: center;
+}
+.heading .main{
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ padding-top: 100px;
+ color: white;
+ font-size: 40px;
+ margin-left: 70px;
+ 
+ }
+.heading .main2{
+  
+  margin-bottom: 15px;
+  color: white;
+  font-size: 100px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.heading .para{
+ color: white;
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+.heading .start{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    background-color:rgb(255, 217, 54);
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border-color: rgb(255, 217, 54);
+    margin-left: 80px;
+    padding: 15px 40px 15px 40px;
+}
+
+.our h1{
+    display: flex;
+    justify-content:center;
+    color: rgba(82, 104, 64, 0.75);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 217, 54);
+    padding: 70px;
+    text-underline-offset: 25px;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(82, 104, 64, 0.75);
+    padding-bottom: 100px;
+}
+
+.orginal{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(31, 63, 5, 0.75);
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+
+.orginal .quote{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.orginal .para{
+ text-align: center;
+ font-size: 25px;
+ 
+}
+
+.orginal .logo{
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+.orginal small{
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.custom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.custom .right1{
+    padding-left: 100px;
+    padding-top: 100px;
+   
+}    
+
+.custom .left1{
+    padding-top: 100px;
+}
+
+.custom .left1 h6{
+    color: grey;
+    padding-bottom: 25px;
+    font-size: 15px;
+
+}
+
+.custom .left1 h1{
+color: rgba(82, 104, 64, 0.75);
+padding-bottom: 50px;
+}
+
+.custom .left1 p{
+
+    color: rgba(82, 104, 64, 0.75);
+    padding-bottom: 50px;
+}
+
+.custom .left1 button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    color: rgba(82, 104, 64, 0.75);
+    background: none;
+    margin-bottom: 250px;
+    cursor: pointer;
+    
+}
+
+.custom .left1 button:hover{
+    color: red;
+    border-color: red;
+}
+
+.last{
+    background-image: url(./meiying-ng-iB7gjOsLrEQ-unsplash.jpg);
+    
+}
+
+.last1 h1{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.last1 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.last1 h1{
+    color: rgb(83, 105, 66);
+    font-size: 58px;
+    margin-bottom: 25px;
+}
+
+.last1 p{
+    font-size: 20px;
+    color: rgba(82, 104, 64, 0.75);
+}
+
+.last1 .let{
+    display: flex;
+    justify-content: center;
+}
+
+.last1 button{
+    background-color: rgb(255, 217, 54);
+    padding: 15px 30px 15px 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border-style: none;
+    color:rgba(82, 104, 64, 0.75); 
+
+}
+
+.foot{
+
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.foot .home{
+    border-style: none;
+    background: none;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   cursor: pointer;
+   color: rgba(82, 104, 64, 0.75);
+}
+
+.foot .contact{
+    border-style: none;
+    background: none;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    color: rgba(82, 104, 64, 0.75);
+
+}
+
+.foot .about{
+    border-style: none;
+    background: none;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    color: rgba(82, 104, 64, 0.75);
+}
+
+.foot .service{
+    border-style: none;
+    background: none;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    color: rgba(82, 104, 64, 0.75);
+}
+
+.foot .greenlogo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+}
+
+.foot .moore{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgba(82, 104, 64, 0.75);
+}
+
